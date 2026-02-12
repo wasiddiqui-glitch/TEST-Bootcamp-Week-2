@@ -1,43 +1,80 @@
-Cookies and Cream Brownies
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cookies and Cream Brownies</title>
 
-Soft and gooey on the inside, crisp on the outside dark chocolate brownies are topped with a layer of creamy topping and crushed cookies in this decadent but easy dessert.
+    <link rel="stylesheet" href="styles/recipe-page.css" />
+  </head>
+  <body>
+    <header>
+      <h1 id="title">Cookies and Cream Brownies</h1>
+      <button onclick="changeTitle()">Add Emojis! </button>
+      <button id="darkBtn" onclick="toggleDarkMode()">🌙 Dark Mode</button>
+      <p>
+        Soft and gooey on the inside, crisp on the outside dark chocolate
+        brownies topped with a creamy topping and crushed cookies.
+      </p>
+    </header>
 
-Ingredients
+    <main>
+      <section>
+        <h2>Your Notes</h2>
+          <input id="noteInput" type="text" placeholder="Type a note..." />
+          <button id="saveNoteBtn">Save Note</button>
+          <p id="noteOutput"></p>
+      </section>
+      
+      <section>
+        <h2>Ingredients</h2>
+        <button id="unitBtn">Switch to Metric</button>
+        <ul>
+          <li id="sugar">1 ½ cups white sugar</li>
+          <li id="flour">¾ cup all-purpose flour</li>
+          <li id="cocoa">½ cup unsweetened cocoa powder</li>
+          <li id="salt">½ teaspoon salt</li>
+          <li id="bakingPowder">¼ teaspoon baking powder</li>
+          <li id="butter">¾ cup unsalted butter, melted</li>
+          <li id="eggs">3 large eggs</li>
+          <li id="vanilla">1 teaspoon vanilla extract</li>
+          <li id="cookies">32 chocolate sandwich cookies, divided</li>
+          <li id="whipped">8 oz whipped topping, thawed</li>
+        </ul>
+      </section>
 
-    1 ½ cups white sugar
-
-    ¾ cup all-purpose flour
-
-    ½ cup high-quality unsweetened cocoa powder
-
-    ½ teaspoon salt
-
-    ¼ teaspoon baking powder
-
-    ¾ cup unsalted butter, melted
-
-    3 large eggs
-
-    1 teaspoon vanilla extract
-
-    32 chocolate sandwich cookies (such as Oreo®), divided
-
-    1 (8 ounce) container frozen whipped topping (such as Cool Whip®), thawed
-
-Directions
-
-    Preheat the oven to 350 degrees F (175 degrees C). Grease a 9-inch square baking pan.
-
-    Mix sugar, flour, cocoa powder, salt, and baking powder together in a mixing bowl.
-
-    Whisk butter, eggs, and vanilla together in a separate bowl. Add butter mixture to the flour mixture and mix until well combined.
-
-    Pour 1/2 of the batter into the prepared baking pan and smooth out with a spatula. Add 16 OREO® cookies in an even layer (4 rows of 4 cookies), then spread the remaining 1/2 of the batter over top.
-
-    Bake in the preheated oven until edges are brown and center is set, 30 to 35 minutes.
-
-    Remove pan from the oven and set on a wire rack. Let brownies cool completely, at least 30 minutes.
-
-    Crush 12 of the remaining OREO® cookies. Place the whipped topping in a bowl and fold in the crushed cookies. Spread over the top of the brownies. Crush the remaining 4 cookies, then sprinkle over the top of the whipped cream mixture.
-
-    Keep refrigerated until you are ready to slice and serve. 
+      <section>
+        <h2>Directions</h2>
+        <ol>
+          <li>Preheat oven to 350°F (175°C). Grease a 9-inch square baking pan.</li>
+          <li>
+            Mix sugar, flour, cocoa powder, salt, and baking powder in a bowl.
+          </li>
+          <li>
+            Whisk butter, eggs, and vanilla in a separate bowl, then combine
+            with dry ingredients.
+          </li>
+          <li>
+            Pour half the batter into the pan, layer 16 cookies evenly, then
+            spread remaining batter on top.
+          </li>
+          <li>
+            Bake for 30–35 minutes until edges are set and center is firm.
+          </li>
+          <li>
+            Cool completely, at least 30 minutes.
+          </li>
+          <li>
+            Crush 12 cookies and fold into whipped topping. Spread over
+            brownies.
+          </li>
+          <li>
+            Crush remaining 4 cookies and sprinkle on top. Refrigerate before
+            serving.
+          </li>
+        </ol>
+      </section>
+    </main>
+    <script src = "script.js"></script>
+  </body>
+</html>
