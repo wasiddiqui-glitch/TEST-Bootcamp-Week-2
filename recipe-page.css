@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+    background-color: bisque;
+  }
+  
+  header {
+    margin-bottom: 20px;
+  }
+  button {
+    margin-top: 10px;
+    padding: 8px 14px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  section {
+    margin-top: 20px;
+  }
+  header h1 {
+    font-size: 3rem;       
+    text-align: center;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+  }
+  
+  header p {
+    text-align: center;
+    font-size: 1.1rem;
+    max-width: 700px;
+    margin: 0 auto;
+  }
+  header {
+    background-color: white;  
+    padding: 30px;
+    border-radius: 12px;
+    margin-bottom: 30px;
+  }
+
+  #noteOutput {
+    margin-top: 10px;
+    font-style: italic;
+  }
+  #unitBtn {
+    margin-bottom: 10px;
+    padding: 6px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  .dark {
+    background-color: #2f2a24;
+    color: #f5f5f5;
+  }
+  
+  .dark header {
+    background-color: #3a342c;
+  }
+  
+  .dark a {
+    color: #ffd27f;
+  }
+  
+  .dark button {
+    background-color: #4a3b2a;
+    color: white;
+  }
